@@ -20,7 +20,7 @@
 ;;; [2019-11-04] Include line numbers
 ;;; TODO make linum global rather than just on loading here.
 (linum-mode 1)
-(setq linum-format " %4d ")
+(setq linum-format " %4d  ")
 
 ;;; [2019-11-04] Enable ido-mode
 (require 'ido)
